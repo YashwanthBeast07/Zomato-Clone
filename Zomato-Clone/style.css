@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Helvitica';  /* Give your font a name */
+    src: url('Helvetica\ Neue\ Light.otf') format('truetype'); /* Multiple formats for compatibility */
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.firstRow img{
+    width: 150px;
+}
+
+.firstRow button{
+    border: 0;
+    background-color: transparent;
+}
+.input-group{
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgb(215, 213, 213);
+    font-family: "Helvitica";
+}
+.input-group-text i{
+    margin-right: 8px;
+}
+
+.input-group span{
+    background-color: transparent;
+    border: 0;
+}
+
+.input-group .red{
+    color: red;
+}
+.input-group input{
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+}
+
+.input-group .Bang{
+    margin-right: 60px;
+}
+
+/* 2nd Row */
+
+.secRoW{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.secRoW .input-group-text{
+    background-color: transparent;
+    border: 0;
+}
+
+.secRoW img{
+    width: 60px;
+}
+
+/* 3rd Row */
+
+.thiRow{
+    padding: 20px;
+}
+
+.thiRow button{
+    border: 1px solid rgb(215, 213, 213);
+    color: rgb(176, 176, 176);
+    margin-left: 30px;
+}
+
+.thiRow i{
+    margin-right: 10px;
+}
+
+
+/*Menu*/
+
+.menu{
+    display: flex;
+    background-color: rgba(215, 213, 213, 0.178);
+    overflow-x: scroll;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 40px;
+}
+
+.menu img{
+    width: 180px;
+    border-radius: 50%;
+}
+
+.menu::-webkit-scrollbar{
+    display: none;
+}
+
+.menu-item {
+    font-family: "Helvitica";
+    text-align: center; /* Center the text */
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menu-item p{
+    margin-top: 5px;
+}
+
+/* 4th Row */
+
+.fouRow h2{
+    font-family: "Helvitica";
+    font-weight: 900;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+/* Body Items */
+
+.bodyFlex {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center align items */
+    gap: 35px; /* Space between items */
+    padding: 10px 50px;
+}
+
+.flexItem {
+    width: 350px;/* 3 items per row */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvitica";
+    text-align: left; /* Center the text */
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.flexItem:hover{
+    box-shadow: 0px 0px 5px;
+}
+
+.flexItem img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+/*Footer*/
+
+footer {
+    height: 470px;
+    width: 100%;
+    background-color: #f7f7f7;
+  }
+  
+  .on-left img {
+    cursor: pointer;
+  }
+  
+  .footer .row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 9% 0% 9%;
+    padding-top: 4%;
+  }
+  .on-right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+  }
+  
+  .select-nationality,
+  .select-language {
+    height: 40px;
+    width: 150px;
+    background-color: #f7f7f7;
+    border: 1px solid #b4b4b4;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  .column-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+  
+  .col {
+    height: 250px;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+  }
+  
+  .col h4 {
+    font-weight: 400;
+    margin-bottom: 2%;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+  }
+  
+  .col li {
+    list-style: none;
+    color: #5c5c5c;
+    font-size: 14px;
+  }
+  
+  .col a {
+    text-decoration: none;
+  }
+  
+  .col li:hover {
+    color: black;
+  }
+  .column-container {
+    border-bottom: 1px solid #8a8a8a;
+  }
+  .TC {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .TC p {
+    padding: 1%;
+    font-size: 12px;
+    color: #242424;
+  }
+  
+  .social-links img {
+    cursor: pointer;
+  }
